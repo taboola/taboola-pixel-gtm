@@ -9,7 +9,7 @@ ___INFO___
 
 {
   "displayName": "Taboola Pixel",
-  "description": "Use the Taboola Pixel template to easily track your campaigns' performance, set up customized conversions and to build custom audiences for retargeting.",
+  "description": "Taboola powers native performance ads on premium editorial sites. Use the Taboola Pixel template to easily track your campaigns' performance, set up customized conversions and to build custom audiences for retargeting.",
   "categories": ["MARKETING","CONVERSION_TRACKING", "ADVERTISING"],
   "__wm": "VGVtcGxhdGUtQXV0aG9yX1RhYm9vbGEtUGl4ZWwtU2ltby1BaGF2YQ==",
   "securityGroups": [],
