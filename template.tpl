@@ -456,7 +456,8 @@ const otherParams = data.otherParams ? makeTableMap(data.otherParams, 'name', 'v
 // Build the payload for the _tfa call
 const params = {
   notify: 'event',
-  id: accountId
+  id: accountId,
+  it: 'GTM'
 };
 if (data.itemUrl) params['item-url'] = data.itemUrl;
 if (data.revenue) params.revenue = data.revenue;
@@ -470,7 +471,8 @@ if (initPixel.indexOf(accountId) === -1) {
   const pvParams = {
     notify: 'event',
     id: accountId,
-    name: 'page_view'
+    name: 'page_view',
+    it: 'GTM'
   };
   if (data.itemUrl) pvParams['item-url'] = data.itemUrl;
   _tfa(pvParams);
