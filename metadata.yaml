@@ -1,5 +1,5 @@
 homepage: "www.taboola.com",
 documentation: "https://help.taboola.com/hc/en-us/articles/360033655813-Implementing-the-Taboola-Pixel-Template-for-Google-Tag-Manager",
 versions:
-  - sha: e12b2b3f82a23fbc4e5cc1ae9d65ae4fe5c4a8f7
-    changeNotes: Added Term of Service and Categories
+  - sha: ef77b77825bb14032f10eaae0d2c32fe38b603da
+    changeNotes: New indication ‘GTM’ to improve pixel performance in Taboola Ads platform
